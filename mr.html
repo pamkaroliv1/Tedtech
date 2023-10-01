@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mr.css">
+    <title>TEDTECH</title>
+</head>
+<body>
+    <nav>
+      <div class="Logo">
+        <div class="logo"> <img src="tedtech.png"></div>        
+        <a href="index.html"></a>  
+      </div>
+        <ul>
+            <li> <a href="index.html">Inicio</a> </li>
+           
+            <li> <a href="catalogo.html">Catálogo</a> </li>
+            <li> <a href="Videos.html"> Videos</a></li>
+            <li> <a href="contato.html">Contate-nos</a> </li>
+           
+           </ul>
+          </nav>
+          <select id="opcoes" onchange="redirecionar()">
+            <option value="">Escolher produto</option>
+            <option value="catalogo.html">Inicio</option>
+            <option value="Fonte.html">Fontes</option>
+            <option value="mr.html">Memoria ram</option>
+            <option value="hd.html">HDD e SDD</option>
+            
+          </select>
+          <script>
+            function redirecionar() {
+              var selecionado = document.getElementById("opcoes").value;
+              if (selecionado) {
+                window.location.href = selecionado;
+              }
+            }
+          </script>
+          <h3>Memoria ram</h3>
+          <main>
+          
+            
+            <section class="produto">
+              <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTYRa4PLG2XsY3-X0JyRW4sfPvrnVAWJyO-xmPcKXEVXDdjFbrWNa9jNazHCnOwVYV-TeJVF1lV_rJbgN86yq1KdsfpHsuJA4tcDCE&usqp=CAY"></a>
+                <h2>Kingston Hyperx Fury 4gb 16GB 8gb <br> Ddr4 2400/2666MHz</h2>
+                <p>10 unidades</p>
+                <p class="preco">R$:150.00</p>
+                <button><a href="https://www.google.com/shopping/product/1?q=memoria+ddr4&prds=epd:266641066751831348,eto:266641066751831348_0,pid:266641066751831348,rsk:LO_266641066751831348&sa=X&ved=0ahUKEwiOua6jnfSAAxXgkZUCHU7ADIkQ9pwGCAo">Comprar</a></button>
+              </section>
+              
+              <section class="produto">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQiNZAW9g1TafS2-BfD5QQgCU5fGyKnMeZpHPoKOVoYnlXzXYaVSaLs2DPub6IQtbE_Zsazt322O5LUCWGRPNL8FqjzUohRZNUs58A&usqp=CAY">
+                <h2>Kingston HyperX FURY DDR3<br> 4GB 8GB 1333mhz 1600MHZ 1866MHZ </h2>
+                <p>10 unidades</p>
+                <p class="preco">R$120.00</p>
+                <button> <a href="https://www.google.com/shopping/product/1?q=memoria+ddr3&prds=epd:3643934258008874738,eto:3643934258008874738_0,pid:3643934258008874738,rsk:LO_3643934258008874738&sa=X&ved=0ahUKEwjr7M6JnvSAAxVeppUCHYp1DoEQ9pwGCAs">Comprar</button>
+                </section>
+                <section class="produto">
+                  <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQJozR7-k8lliJTAiwkatGhk1M39DiLiUtxKfmWx0JqLvMArgxPKnQRqgvCI_BhUwTZweRHgTAXQfZVPk2xpgNEY69Qg5b1nkHnYXFW&usqp=CAY"></a>
+                  <h2>Memória Notebook 8GB Ddr3 <br>1600mhz Kingston
+                  </h2>
+                  <p>10 unidades</p>
+                  <p class="preco">R$70.00</p>
+                  <button> <a href="https://www.google.com/shopping/product/13361364470456661130?client=firefox-b-d&hl=pt-BR&q=fonte+atx+&prds=eto:9509813372967720065_0;15691522387504022215_0;11351104610134142952_0,pid:10923436795567525901,rsk:PC_3268542880198029394&sa=X&ved=0ahUKEwjWzpSSjPOAAxUPBLkGHRwUCbMQ9pwGCA4#sgro=om">Comprar</button>
+                </section>
+                <section class="produto">
+                  <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRVQcLmPvY8Yo8KLX-ga9__FtYwzIL3waKUr9antbkuypTVJQ1JOIvMkMmhJleITtTWZC5yx50czMxbTspqTLeHhPf-wgVr2KV8dno&usqp=CAY"></a>
+                  <h2> Hyperx Impact, 16GB,<br> 2666MHz, DDR4, Notebook
+                  </h2>
+                  <p>10 unidades</p>
+                  <p class="preco">R$190.00</p>
+                  <button> <a href="https://www.google.com/shopping/product/2843916404000410220?q=memoria+ddr4+para+notebook&prds=eto:10801397594224121526_0;13281984591765793998_0;3986284844171085966_0,pid:963346838124103690,rsk:PC_13985900240141542548&sa=X&ved=0ahUKEwjTpuf5n_SAAxVYrJUCHWwIBEkQ9pwGCA4">Comprar</button>
+                </section>
+          </main>
+    
+</body>
+</html>

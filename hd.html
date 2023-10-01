@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEDTECH</title>
+    <link rel="stylesheet" href="hd.css">
+</head>
+<body>
+    <nav>
+      <div class="Logo">
+        <div class="logo"> <img src="tedtech.png"></div>        
+        <a href="index.html"></a>  
+      </div>
+        <ul>
+            <li> <a href="index.html">Inicio</a> </li>
+           
+            <li> <a href="catalogo.html">Catálogo</a> </li>
+            <li> <a href="Videos.html"> Videos</a></li>
+            <li> <a href="contato.html">Contate-nos</a> </li>
+           
+           </ul>
+          </nav>
+          <select id="opcoes" onchange="redirecionar()">
+            <option value="">Escolher produto</option>
+            <option value="catalogo.html">Inicio</option>
+            <option value="Fonte.html">Fontes</option>
+            <option value="mr.html">Memoria ram</option>
+            <option value="hd.html">HD e SDD</option>
+          </select>
+          <script>
+            function redirecionar() {
+              var selecionado = document.getElementById("opcoes").value;
+              if (selecionado) {
+                window.location.href = selecionado;
+              }
+            }
+          </script>
+          <h3>HD e SDD</h3>
+          <main>
+            
+            <section class="produto">
+              <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTdJEACPMkLMdwjfr-lPLNd6bcSNz6zjBK8lKEIJA5oWpBTpYRw-ckJPySFcnQiyrGBtK5AG-BVBDAVK9ei2UB7kVa94veA9NbLmI8&usqp=CAY"></a>
+                <h2>Hd Western Digital 500GB</h2>
+                <p>10 unidades</p>
+                <p class="preco">R$:105.00</p>
+                <button><a href="https://www.google.com/shopping/product/1?q=memoria+ddr4&prds=epd:266641066751831348,eto:266641066751831348_0,pid:266641066751831348,rsk:LO_266641066751831348&sa=X&ved=0ahUKEwiOua6jnfSAAxXgkZUCHU7ADIkQ9pwGCAo">Comprar</a></button>
+              </section>
+              
+              <section class="produto">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRf_--OwZ6SCDaG2xjYCedwCPh0hK4tPsdT2sW1p1PUMVhy7JCvNcZn-Hl56shdpqLlL2shDRx5gaJJGyR8cCwocjss0ynKxX-sCDs&usqp=CAY">
+                <h2>Hd Notebook 500GB Sata Seagate </h2>
+                <p>10 unidades</p>
+                <p class="preco">R$120.00</p>
+                <button> <a href="https://www.google.com/shopping/product/1?q=memoria+ddr3&prds=epd:3643934258008874738,eto:3643934258008874738_0,pid:3643934258008874738,rsk:LO_3643934258008874738&sa=X&ved=0ahUKEwjr7M6JnvSAAxVeppUCHYp1DoEQ9pwGCAs">Comprar</button>
+                </section>
+                <section class="produto">
+                  <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR5d9JsearZx_wzjJLoX2vcFlRO6PSDMe3-SXb8HUDZI4-tIpx33j6J9c0YtnJP7RjKVszxWhdisBK6x1fbV2d6Veypq2iy5AOiYwWO&usqp=CAY"></a>
+                  <h2>Ssd 480GB Sata Kingston A400 
+                  </h2>
+                  <p>10 unidades</p>
+                  <p class="preco">R$170.00</p>
+                  <button> <a href="https://www.google.com/shopping/product/13473222763487379792?client=firefox-b-d&hl=pt-BR&q=ssd&prds=eto:16616706653646997561_0;12271590768979568216_0;18348836120655036402_0,pid:11105756806239170789,rsk:PC_6842936996254202636&sa=X&ved=0ahUKEwj8v4XVvPWAAxWcEbkGHbkuB5EQ9pwGCBw">Comprar</button>
+                </section>
+                <section class="produto">
+                  <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSWEs0zssRrwRN5A5vIzXZH6iBHuemmsLxOh1SgmN0efIhV1QKrHmjiWdRPwvWeaXs43wxRarWRDVV2617UdPM4aLhUntOBaeBNZsCy&usqp=CAY"></a>
+                  <h2> Ssd Kingston - 500GB NV2, M.2 2280
+                  </h2>
+                  <p>10 unidades</p>
+                  <p class="preco">R$190.00</p>
+                  <button> <a href="https://www.google.com/shopping/product/12679545427297519673?client=firefox-b-d&hl=pt-BR&q=ssd+m.2+nvme&prds=eto:5594022999219604084_0;6468531929449633105_0;5872463822146744696_0,pid:9897965626398615412,rsk:PC_735222462784106329&sa=X&ved=0ahUKEwihvozTvfWAAxUtE7kGHVw6BxYQ9pwGCA8#sgro=om">Comprar</button>
+                </section>
+             
+                
+          </main>
+    
+</body>
+</html>
