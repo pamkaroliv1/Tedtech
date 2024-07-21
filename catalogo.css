@@ -130,3 +130,9 @@ body, h1, h2, p, button {
   
 
 }
+@media (max-width: 600px) {
+    .nav-button {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
